@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="bys.trep.wallowa.ui.fdfgdgfvbdfg"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/gfhghghgfh" />
+    <fragment
+        android:id="@+id/startingFragment"
+
+        android:name="bys.trep.wallowa.ui.ghfngfggfgdf"
+        android:label="fragment_starting"
+        tools:layout="@layout/gfhfgjjgk" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="bys.trep.wallowa.ui.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fgfgfsdfsd" />
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="bys.trep.wallowa.ui.sdfdsfdsf"
+        android:label="fragment_game"
+        tools:layout="@layout/dasdawrqsdf" />
+</navigation>
